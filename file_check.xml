@@ -1,0 +1,27 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='file' type='file' />
+   
+   </options>
+    </context>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+  
+  <id>e93ebc7c-916a-4dee-af82-dc1146ab10cc</id>
+    <loglevel>INFO</loglevel>
+    <name>file_check</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+ 
+   <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>cat ${file.file}</exec>
+    
+  </command>
+    </sequence>
+    <uuid>e93ebc7c-916a-4dee-af82-dc1146ab10cc</uuid>
+  </job>
+</joblist>
